@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, laborum.
+    </p>
+    <div>
+        <form action="" id="survey-form">
+            <label id="name-label">Name: </label><input type="text" name="name" id="name" placeholder="name" required=true>
+            <br/><br/>
+            <lable id="email-label">Email: </label><input type="email" name="email" id="email" placeholder="email" required=true>
+                <br/><br/>
+            <label id="number-label">Number: </label><input type="number" name="number" id="number" placeholder="number" required=true>
+            <br/><br/>
+            <label id="dropdown"> Choose one option:</label>
+            <select name="city" id="city-select">
+                <option value="bihar">Bihar</option>
+                <option value="Delhi">Delhi</option>
+                <option value="uttar-pradesh">Uttar-Pradesh</option>
+                <option value="jharkhand">Jharkhand</option>
+            </select>
+
+            <br><br>
+            <fieldset>
+                <legend>Select a maintenance drone:</legend>
+            
+                <div>
+                  <input type="radio" id="huey" name="drone" value="huey"
+                         checked>
+                  <label for="huey">Huey</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="dewey" name="drone" value="dewey">
+                  <label for="dewey">Dewey</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="louie" name="drone" value="louie">
+                  <label for="louie">Louie</label>
+                </div>
+            </fieldset>
+            <br><br>
+            <label for="additional commnets">Additional Comments: </label>
+            <textarea name="additional commnets" id="additional commnet" cols="30" rows="10"></textarea>
+
+            <br><br>
+        <button type="submit">submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
